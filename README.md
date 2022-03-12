@@ -1,4 +1,4 @@
-# Paddle Cap For EgretII mini
+# Paddle Cap For Egret II mini
 GRETⅡ mini（イーグレットツー ミニ）のパドルコントローラーのパドル用のキャップです。
 
 [OpenSCAD](https://openscad.org/)に読み込ませてレンダリングしてSTLファイルを作成して保存し、お好きな3Dプリンターで印刷してください。
