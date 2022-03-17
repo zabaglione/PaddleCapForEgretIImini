@@ -7,7 +7,7 @@ number_Of_teeth=48;
 //-------------------------------------------------
 
 // キャップ本体の描画
-height = 15; // 高さは15mmで固定
+height = 14; // 高さは15mmで固定
 eps = 0.01;  // チラつき防止
 
 union() {
@@ -29,6 +29,6 @@ union() {
 
     // 蓋
     translate([0, 0, height])
-        linear_extrude(height = 3, center = false, scale=0.8, $fn = 100)
+        linear_extrude(height = 3, center = false, scale=0.9, $fn = 100)
             circle(diameter / 2, $fn=100);
 }
